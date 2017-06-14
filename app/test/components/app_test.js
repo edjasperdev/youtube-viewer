@@ -6,7 +6,8 @@ describe('App', () => {
     const component = renderComponent(App);
 
     expect(component).to.have.class('app-container');
-
+    //it initiates yt search with 'feist'
+    //it passes videoSearch to search bar
     //it renders SearchBar
     //it renders VideoDetail
     //it renders VideoList
